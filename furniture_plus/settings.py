@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 
+import os
+if os.path.exists("env.py"):
+  import env 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -20,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-o$)(_0v3cbdu9u-_p9*0n*!lmkjv^^7-_ocm2@&u(do2zd!y)g'
+SECRET_KEY = '7)3(=#=3sif8&@=z%%rtq&9=oy31@%cfm)9!juxkj58aw-hf5s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
