@@ -10,6 +10,7 @@ body {
     font-family: 'Lato';
 }
 
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -34,7 +35,7 @@ body {
 }
 
 .btn-blue {
-    background: rgb(55, 132, 204);
+    background: rgb(37, 83, 126);
     color: white;
 }
 
@@ -55,10 +56,24 @@ body {
 .text-white {
     color: white;
 } 
+
+.catch-phrase {
+    margin-top:170px;
+}
+
+h5 {
+    text-shadow:  1px 1px 0px black;
+    color:rgb(231, 194, 27);
+    
+}
+
 .border-blue {
     border: 1px solid rgb(37, 83, 126) !important;
 }
 
+.bg-blue {
+    background:rgb(37, 83, 126);
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -79,6 +94,8 @@ body {
     }
 
     .header-container {
-        padding-top: 90px;
+        padding-top: 164px;
     }
+
+    
 }
