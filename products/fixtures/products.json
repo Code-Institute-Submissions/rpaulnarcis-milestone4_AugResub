@@ -1,0 +1,1122 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "MALM",
+            "description": "Bed, high, black-brown/Luröy160x200 cm, Price incl. VAT",
+            "price": 240.49,
+            "category": 10,
+            "rating": 4.6,
+            "image_url": "https://www.ikea.com/sa/en/images/products/malm-bed-frame-high-black-brown-luroey__0638608_pe699032_s5.jpg?f=g",
+            "image": "DP0709201205510679M.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600425",
+            "name": "LEIRVIK",
+            "description": "Bed, white/Luröy140x200 cm, Price incl. VAT",
+            "price": 140.00,
+            "category": 3,
+            "rating": 4.6,
+            "image_url": "https://www.ikea.com/sa/en/images/products/leirvik-bed-frame-white-luroey__0637552_pe704561_s5.jpg?f=g",
+            "image": "DP0113201617034987M.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001730010",
+            "name": "HAUGA",
+            "description": "Upholstered bed, Vissle grey160x200 cm, Price incl. VAT",
+            "price": 205.99,
+            "category":10,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/hauga-upholstered-bed-frame-vissle-grey__0789232_pe764315_s5.jpg?f=g",
+            "image": "DP1230201417013175M.jpg"
+        }
+    },
+    {
+        "pk":4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "MALM",
+            "description": "Bed, high, w 2 storage boxes, white/Luröy160x200 cm, Price incl. VAT",
+            "price": 400.00,
+            "category":9,
+            "rating": 3.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/malm-bed-frame-high-w-2-storage-boxes-white-luroey__0638626_pe699044_s5.jpg?f=g",
+            "image": "DP0716201503423610M.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002111605",
+            "name": "IDANÄS",
+            "description": "Upholstered bed, Gunnared pale pink160x200 cm, Price incl. VAT. ",
+            "price": 450.00,
+            "category": 10,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/idanaes-upholstered-bed-frame-gunnared-pale-pink__0953727_pe802887_s5.jpg?f=g",
+            "image": "DP1115201210371197C.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002260206",
+            "name": "BRIMNES",
+            "description": "Bed w storage and headboard, white/Luröy140x200 cm, Price incl. VAT",
+            "price": 444.99,
+            "category": 10,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/brimnes-bed-frame-w-storage-and-headboard-white-luroey__0638600_pe699029_s5.jpg?f=g",
+            "image": "DP0624201520422666C.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "TARVA",
+            "description": "Bed frame, pine/Luröy140x200 cm, Price incl. VAT",
+            "price": 159.99,
+            "category": 2,
+            "rating": 4.4,
+            "image_url": "https://www.ikea.com/sa/en/images/products/tarva-bed-frame-pine-luroey__0637611_pe698421_s5.jpg?f=g",
+            "image": "DP0226201317034754M.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002601115",
+            "name": "TUFJORD",
+            "description": "Upholstered bed, Gunnared blue160x200 cm, Price incl. VAT.",
+            "price": 746.99,
+            "category": 10,
+            "rating": 4.5,
+            "image_url": "https://www.ikea.com/sa/en/images/products/tufjord-upholstered-bed-frame-gunnared-blue__0859775_pe781090_s5.jpg?f=s",
+            "image": "DP0926201317071162M.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002690715",
+            "name": "VADHEIM",
+            "description": "Upholstered bed , Gunnared light green160x200 cm, Price incl. VAT",
+            "price": 584.99,
+            "category": 10,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/vadheim-upholstered-bed-frame-gunnared-light-green__0859685_pe781076_s5.jpg?f=g",
+            "image": "DP1020201517025390M.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002701115",
+            "name": "NORDLI",
+            "description": "Bed w storage and headboard, white160x200 cm, Price incl. VAT",
+            "price": 799.99,
+            "category": 10,
+            "rating": 4.4,
+            "image_url": "https://www.ikea.com/sa/en/images/products/nordli-bed-frame-w-storage-and-headboard-white__0749134_pe745503_s5.jpg?f=g",
+            "image": "DP0418201317011949M.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002761055",
+            "name": "SONGESAND",
+            "description": "Bed, brown/Luröy140x200 cm, Price incl. VAT",
+            "price": 198.99,
+            "category": 10,
+            "rating": 3.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/songesand-bed-frame-brown-luroey__0638582_pe699001_s5.jpg?f=g",
+            "image": "0900631B81B0C2D9M.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002820069",
+            "name": "Shelf unit",
+            "description": "Shelf unit, white36x23x100 cm, Price incl. VAT",
+            "price": 11.99,
+            "category": 2,
+            "rating": 4.6,
+            "image_url": "https://www.ikea.com/sa/en/images/products/vesken-shelf-unit-white__0419316_pe576206_s5.jpg?f=g",
+            "image": "DP0510201317010521M.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002820147",
+            "name": "Corner shelf unit",
+            "description": "Corner shelf unit, white33x33x71 cm, Price incl. VAT",
+            "price": 9.99,
+            "category": 3,
+            "rating": 3.2,
+            "image_url": "https://www.ikea.com/sa/en/images/products/vesken-corner-shelf-unit-white__0831999_pe777543_s5.jpg?f=g",
+            "image": "DP0430201405053680M.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002910572",
+            "name": "Corner shelf unit",
+            "description": "Corner shelf unit, white33x33x71 cm, Price incl. VAT ",
+            "price": 9.99,
+            "category": 3,
+            "rating": 3.2,
+            "image_url": "https://www.ikea.com/sa/en/images/products/vesken-corner-shelf-unit-black__0831987_pe777540_s5.jpg?f=g",
+            "image": "0900631B81C9387BM.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002990740",
+            "name": "Single wash-basin",
+            "description": "Single wash-basin, white80x48x10 cm, Price incl. VAT",
+            "price": 248.99,
+            "category": 7,
+            "rating": 4.8,
+            "image_url": "https://www.ikea.com/sa/en/images/products/braviken-single-wash-basin-white__0756168_pe748795_s5.jpg?f=g",
+            "image": "DP1029201317111469M.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003050248",
+            "name": "Countertop wash-basin",
+            "description": "Countertop wash-basin, white45x32 cm, Price incl. VAT",
+            "price": 149.99,
+            "category": 7,
+            "rating": 4.4,
+            "image_url": "https://www.ikea.com/sa/en/images/products/hoervik-countertop-wash-basin-white__0756182_pe748805_s5.jpg?f=g",
+            "image": "DP0918201520303373C.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003070787",
+            "name": "Double wash-basin",
+            "description": "Double wash-basin123x49x6 cm, Price incl. VAT ",
+            "price": 233.99,
+            "category": 7,
+            "rating": 4.4,
+            "image_url": "https://www.ikea.com/sa/en/images/products/odensvik-double-wash-basin__0756210_pe748821_s5.jpg?f=g",
+            "image": "DP1119201520340305C.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003090182",
+            "name": "Wash-stand with 4 drawers",
+            "description": "Wash-stand with 4 drawers, Kasjön white120x47x58 cm, Price incl. VAT",
+            "price": 479.99,
+            "category": 7,
+            "rating": 4.8,
+            "image_url": "https://www.ikea.com/sa/en/images/products/godmorgon-wash-stand-with-4-drawers-kasjoen-white__0558747_pe663422_s5.jpg?f=g",
+            "image": "DP0807201317072274M.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003090186",
+            "name": "shlf/doors",
+            "description": "Bs cb f wb w shlf/doors, grey/grey frame80x42x60 cm, Price incl. VAT",
+            "price": 95.99,
+            "category": 7,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/enhet-bs-cb-f-wb-w-shlf-doors-grey-grey-frame__0816065_pe773240_s5.jpg?f=g",
+            "image": "DP0807201317072924M.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003161326",
+            "name": "Wash-stand with 2 drawers",
+            "description": "Wash-stand with 2 drawers, white80x47x83 cm, Price incl. VAT ",
+            "price": 254.99,
+            "category": 7,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/hemnes-wash-stand-with-2-drawers-white__0143688_pe303210_s5.jpg?f=g",
+            "image": "DP0821201317103183M.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003230723",
+            "name": "Mirror cabinet",
+            "description": "Mirror cabinet with 1 door, white40x17x75 cm, Price incl. VAT ",
+            "price": 64.99,
+            "category": 7,
+            "rating": 4.3,
+            "image_url": "https://www.ikea.com/sa/en/images/products/enhet-mirror-cabinet-with-1-door-white__0816124_pe773242_s5.jpg?f=g",
+            "image": "0900631B81D676AEM.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003270936",
+            "name": "Hanger for door",
+            "description": "Hanger for door, stainless steel, Price incl. VAT",
+            "price": 6.99,
+            "category": 7,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/brogrund-hanger-for-door-stainless-steel__0710490_pe727587_s5.jpg?f=g",
+            "image": "DP0917201317033820M.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003360384",
+            "name": "Bath mat",
+            "description": "Bath mat, dark grey50x80 cm, Price incl. VAT",
+            "price": 13.99,
+            "category": 7,
+            "rating": 4.8,
+            "image_url": "https://www.ikea.com/sa/en/images/products/emten-bath-mat-dark-grey__0618642_pe688587_s5.jpg?f=g",
+            "image": "DP0927201317061305M.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003440111",
+            "name": "Soap dispenser",
+            "description": "Soap dispenser, chrome effect, Price incl. VAT ",
+            "price": 6.99,
+            "category": 7,
+            "rating": 3.8,
+            "image_url": "https://www.ikea.com/sa/en/images/products/voxnan-soap-dispenser-chrome-effect__0711723_pe728408_s5.jpg?f=g",
+            "image": "DP1023201317051585M.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003540313",
+            "name": "Single-spray handshower",
+            "description": "Single-spray handshower, chrome-plated, Price incl. VAT",
+            "price": 12.99,
+            "category": 7,
+            "rating": 3.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/vallamosse-single-spray-handshower-chrome-plated__0755001_pe748207_s5.jpg?f=g",
+            "image": "DP1108201317050996M.jpg"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003560513",
+            "name": "Tea towel",
+            "description": "Tea towel, white/green/patterned45x60 cmprice/piece SR 3.25, Price incl. VAT",
+            "price": 3.99,
+            "category": 4,
+            "rating": 4.4,
+            "image_url": "https://www.ikea.com/sa/en/images/products/rinnig-tea-towel-white-green-patterned__0813215_pe772339_s5.jpg?f=g",
+            "image": "DP0219201502115503C.jpg"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003560948",
+            "name": "Base cabinet",
+            "description": "Base cabinet with doors and drawer, wood effect/grey180 cm, Price incl. VAT ",
+            "price": 232.99,
+            "category": 4,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/knoxhult-base-cabinet-with-doors-and-drawer-wood-effect-grey__0630758_pe694886_s5.jpg?f=g",
+            "image": "DP0610201317080834M.jpg"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003570628",
+            "name": "Rubber spatula",
+            "description": "Rubber spatula, green/pink/blue/white, Price incl. VAT",
+            "price": 2.99,
+            "category": 4,
+            "rating": 4.3,
+            "image_url": "https://www.ikea.com/sa/en/images/products/gubbroera-rubber-spatula-green-pink-blue-white__0711753_pe728442_s5.jpg?f=g",
+            "image": "0900631B818ABCB9M.jpg"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003620308",
+            "name": "Kitchen island",
+            "description": "Kitchen island, black/oak126x79x90 cm, Price incl. VAT",
+            "price": 569.99,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": "https://www.ikea.com/sa/en/images/products/vadholma-kitchen-island-black-oak__0736820_pe740762_s5.jpg?f=g",
+            "image": "DP0422201517022488M.jpg"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003690115",
+            "name": "knife set",
+            "description": "3-piece knife set, multicolour, Price incl. VAT",
+            "price": 2.40,
+            "category": 4,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/matdoft-3-piece-knife-set-multicolour__0371456_pe551713_s5.jpg?f=g",
+            "image": "DP0113201417050002M.jpg"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003690116",
+            "name": "knife set",
+            "description": "knife set with doors, wood effect/grey120x75 cm, Price incl. VAT",
+            "price": 82.69,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/knoxhult-wall-cabinet-with-doors-wood-effect-grey__0630718_pe694860_s5.jpg?f=g",
+            "image": "DP0213201417022274M.jpg"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003780391",
+            "name": "Wire basket with handle",
+            "description": "Wire basket with handle, black20x19x23 cm, Price incl. VAT",
+            "price": 10.99,
+            "category": 4,
+            "rating": 4.8,
+            "image_url": "https://www.ikea.com/sa/en/images/products/fintorp-wire-basket-with-handle-black__0156680_pe317469_s5.jpg?f=g",
+            "image": "DP1028201517024563M.jpg"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003790542",
+            "name": "Frying pan",
+            "description": "Frying pan, set of 2, black, Price incl. VAT",
+            "price": 7.29,
+            "category": 4,
+            "rating": 4.5,
+            "image_url": "https://www.ikea.com/sa/en/images/products/kavalkad-frying-pan-set-of-2-black__0811389_pe771638_s5.jpg?f=g",
+            "image": "DP0422201617033665M.jpg"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003831225",
+            "name": "Food container with lid",
+            "description": "Food container with lid, square/glass180 ml, price/piece SR 7, Price incl. VAT",
+            "price": 5.60,
+            "category": 4,
+            "rating": 4.5,
+            "image_url": "https://www.ikea.com/sa/en/images/products/ikea-365-food-container-with-lid-square-glass__0916186_pe785017_s5.jpg?f=g",
+            "image": "DP0915201413433903C.jpg"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003861402",
+            "name": "Pot stand",
+            "description": "Pot stand, magnetic, red/dark grey, Price incl. VAT",
+            "price": 8.50,
+            "category": 4,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/ikea-365-gunstig-pot-stand-magnetic-red-dark-grey__0711770_pe728462_s5.jpg?f=g",
+            "image": "DP0430201405113681M.jpg"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003910638",
+            "name": "Kitchen island",
+            "description": "Kitchen island, off-white/oak126x77 cm, Price incl. VAT",
+            "price": 452.99,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": "https://www.ikea.com/sa/en/images/products/tornviken-kitchen-island-off-white-oak__0736817_pe740760_s5.jpg?f=g",
+            "image": "DP0401201417083996M.jpg"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003950574",
+            "name": "Step stool",
+            "description": "Step stool, beech50 cm, Price incl. VAT.",
+            "price": 17.99,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/bekvaem-step-stool-beech__0108612_pe258294_s5.jpg?f=g",
+            "image": "DP0828201517030241M.jpg"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003950576",
+            "name": "Kitchen island with rack",
+            "description": " Kitchen island with rack, black/oak126x79x193 cm, Price incl. VAT",
+            "price": 705.99,
+            "category": 4,
+            "rating": 4.5,
+            "image_url": "https://www.ikea.com/sa/en/images/products/vadholma-kitchen-island-with-rack-black-oak__0605057_pe681596_s5.jpg?f=g",
+            "image": "DP0403201417141773M.jpg"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003960062",
+            "name": "Table",
+            "description": "Table, black-brown74x74 cm, Price incl. VAT",
+            "price": 91.99,
+            "category": 4,
+            "rating": 3.8,
+            "image_url": "https://www.ikea.com/sa/en/images/products/lerhamn-table-black-brown__0238241_pe377689_s5.jpg?f=g",
+            "image": "DP0715201417203832M.jpg"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003960682",
+            "name": "Table",
+            "description": "Table, light antique stain/white stain74x74 cm, Price incl. VAT ",
+            "price": 91.99,
+            "category": 4,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/lerhamn-table-light-antique-stain-white-stain__0238243_pe377691_s5.jpg?f=g",
+            "image": "DP0430201405213832M.jpg"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003960775",
+            "name": "Corner sofa-bed with storag",
+            "description": "Corner sofa-bed with storage, Bomstad black, Price incl. VAT",
+            "price": 930.99,
+            "category": 5,
+            "rating": 3.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/friheten-corner-sofa-bed-with-storage-bomstad-black__0248337_pe386785_s5.jpg?f=g",
+            "image": "DP0430201405232442M.jpg"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003990736",
+            "name": "Corner sofa-bed with storage",
+            "description": "Corner sofa-bed with storage, Hyllie beige, Price incl. VAT",
+            "price": 218.99,
+            "category": 5,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/friheten-corner-sofa-bed-with-storage-hyllie-beige__0690253_pe723174_s5.jpg?f=g",
+            "image": "DP0519201417080443M.jpg"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003990746",
+            "name": "Three-seat sofa-bed",
+            "description": "Three-seat sofa-bed, Bomstad black, Price incl. VAT",
+            "price": 692.99,
+            "category": 5,
+            "rating": 4.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/friheten-three-seat-sofa-bed-bomstad-black__0525511_pe644872_s5.jpg?f=g",
+            "image": "0900631B8140782DM.jpg"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004111503",
+            "name": "3-seat sofa-bed",
+            "description": "3-seat sofa-bed, Hyllie beige, Price incl. VAT",
+            "price": 639.99,
+            "category": 5,
+            "rating": 4.9,
+            "image_url": "https://www.ikea.com/sa/en/images/products/friheten-3-seat-sofa-bed-hyllie-beige__0690274_pe723194_s5.jpg?f=g",
+            "image": "DP0421201520311379C.jpg"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004230059",
+            "name": "3-seat sofa-bed",
+            "description": "3-seat sofa-bed, Hyllie dark grey, Price incl. VAT",
+            "price": 639.99,
+            "category": 5,
+            "rating": 4.6,
+            "image_url": "https://www.ikea.com/sa/en/images/products/friheten-3-seat-sofa-bed-hyllie-dark-grey__0690268_pe723188_s5.jpg?f=g",
+            "image": "DP0716201503421212M.jpg"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004310089",
+            "name": "3-seat sofa-bed",
+            "description": "3-seat sofa-bed, Skiftebo blue, Price incl. VAT",
+            "price": 162.99,
+            "category": 5,
+            "rating": 4.5,
+            "image_url": "https://www.ikea.com/sa/en/images/products/friheten-3-seat-sofa-bed-skiftebo-blue__0690280_pe723200_s5.jpg?f=g",
+            "image": "DP0722201417110136M.jpg"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004610254",
+            "name": "TV bench",
+            "description": "TV bench, white180x41x53 cm, Price incl. VAT",
+            "price": 179.99,
+            "category": 5,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/brimnes-tv-bench-white__0601754_pe681623_s5.jpg?f=g",
+            "image": "DP1017201420511297C.jpg"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004650050",
+            "name": "TV bench",
+            "description": "TV bench, black180x41x53 cm, Price incl. VAT",
+            "price": 179.99,
+            "category": 5,
+            "rating": 3.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/brimnes-tv-bench-black__0704610_pe725291_s5.jpg?f=g",
+            "image": "DP0919201417043014M.jpg"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004821375",
+            "name": "Coffee table",
+            "description": "Coffee table, white118x78 cm, Price incl. VAT",
+            "price": 39.99,
+            "category": 5,
+            "rating": 4.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/lack-coffee-table-white__0750651_pe746801_s5.jpg?f=g",
+            "image": "DP1015201417131329M.jpg"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004900522",
+            "name": "Coffee table",
+            "description": "Coffee table, black-brown/glass75 cm, Price incl. VAT",
+            "price": 51.99,
+            "category": 5,
+            "rating": 4.6,
+            "image_url": "https://www.ikea.com/sa/en/images/products/vittsjoe-coffee-table-black-brown-glass__0135348_pe292039_s5.jpg?f=g",
+            "image": "DP1202201412542357M.jpg"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004910158",
+            "name": "Coffee table",
+            "description": "Coffee table, brown90 cm, Price incl. VAT",
+            "price": 185.99,
+            "category": 9,
+            "rating": 3.8,
+            "image_url": "https://www.ikea.com/sa/en/images/products/listerby-coffee-table-brown__0612069_pe685593_s5.jpg?f=g",
+            "image": "DP1019201520531375C.jpg"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004910477",
+            "name": "Coffee table",
+            "description": "Coffee table, black-brown90 cm, Price incl. VAT ",
+            "price": 144.99,
+            "category": 5,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/vejmon-coffee-table-black-brown__0089492_pe221833_s5.jpg?f=g",
+            "image": "DP1124201417012025M.jpg"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004940703",
+            "name": "Coffee table",
+            "description": "Coffee table, brown140x60 cm, Price incl. VAT",
+            "price": 233.99,
+            "category": 5,
+            "rating": 3.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/listerby-coffee-table-brown__0612026_pe685586_s5.jpg?f=g",
+            "image": "DP1220201417020921M.jpg"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004991006",
+            "name": "Storage table",
+            "description": "Storage table, acacia98x50 cm, Price incl. VAT",
+            "price": 117.99,
+            "category": 5,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/hol-storage-table-acacia__0104310_pe251255_s5.jpg?f=g",
+            "image": "DP0414201520383920C.jpg"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004991162",
+            "name": "Nest of tables",
+            "description": "Nest of tables, set of 2, grey, Price incl. VAT",
+            "price": 123.99,
+            "category": 9,
+            "rating": 4.5,
+            "image_url": "https://www.ikea.com/sa/en/images/products/havsta-nest-of-tables-set-of-2-grey__0735680_pe740085_s5.jpg?f=g",
+            "image": "DP0428201617042837M.jpg"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005000046",
+            "name": "LAPPLAND",
+            "description": "TV storage unit, black-brown183x39x147 cm, Price incl. VAT",
+            "price": 218.99,
+            "category": 5,
+            "rating": 3.9,
+            "image_url": "https://www.ikea.com/sa/en/images/products/lappland-tv-storage-unit-black-brown__0644181_pe702463_s5.jpg?f=g",
+            "image": "DP0113201523230512M.jpg"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005070254",
+            "name": "TV storage unit",
+            "description": "TV storage unit, white183x39x147 cm, Price incl. VAT",
+            "price": 118.99,
+            "category": 5,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/lappland-tv-storage-unit-white__0644184_pe702464_s5.jpg?f=g",
+            "image": "DP0323201517042926M.jpg"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005071145",
+            "name": "Storage combination with 2 shelves",
+            "description": "Storage combination with 2 shelves, white266x39x147 cm, Price incl. VAT",
+            "price": 185.30,
+            "category": 5,
+            "rating": 4.5,
+            "image_url": "https://www.ikea.com/sa/en/images/products/kallax-lack-storage-combination-with-2-shelves-white__0943544_pe796971_s5.jpg?f=g",
+            "image": "DP0204201517030626M.jpg"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005140282",
+            "name": "TV bench",
+            "description": "TV bench, white/Hanviken/Stubbarp white clear glass180x42x48 cm, Price incl. VAT",
+            "price": 305.99,
+            "category": 5,
+            "rating": 4.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/besta-tv-bench-white-hanviken-stubbarp-white-clear-glass__0342055_pe531683_s5.jpg?f=g",
+            "image": "DP0224201517023517M.jpg"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005200166",
+            "name": "TV storage combination",
+            "description": "TV storage combination, white258x41x95 cm, Price incl. VAT",
+            "price": 298.99,
+            "category": 5,
+            "rating": 4.4,
+            "image_url": "https://www.ikea.com/sa/en/images/products/brimnes-tv-storage-combination-white__0619434_pe689076_s5.jpg?f=g",
+            "image": "DP0320201517010207M.jpg"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005210241",
+            "name": "TV storage combination",
+            "description": "TV storage combination, black-brown/light brown clear glass326x197 cm, Price incl. VAT",
+            "price": 145.99,
+            "category": 5,
+            "rating": 4.5,
+            "image_url": "https://www.ikea.com/sa/en/images/products/hemnes-tv-storage-combination-black-brown-light-brown-clear-glass__0824740_pe776188_s5.jpg?f=g",
+            "image": "DP0302201517030242M.jpg"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005280104",
+            "name": "TV/storage combination",
+            "description": "TV/storage combination, grey277x46x199 cm, Price incl. VAT",
+            "price": 518.99,
+            "category": 9,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/hauga-tv-storage-combination-grey__0917824_pe786006_s5.jpg?f=g",
+            "image": "DP0401201517030651M.jpg"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005310360",
+            "name": "Table and 4 chairs",
+            "description": "Table and 4 chairs, antique stain, Price incl. VAT",
+            "price": 169.99,
+            "category": 6,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/jokkmokk-table-and-4-chairs-antique-stain__0736929_pe740809_s5.jpg?f=g",
+            "image": "DP0408201517021489M.jpg"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005330595",
+            "name": "Table and 4 chairs",
+            "description": "Table and 4 chairs, black110 cm, Price incl. VAT",
+            "price": 84.99,
+            "category": 6,
+            "rating": 4.9,
+            "image_url": "https://www.ikea.com/sa/en/images/products/taerendoe-adde-table-and-4-chairs-black__0738112_pe741380_s5.jpg?f=g",
+            "image": "DP0527201520374912C.jpg"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005330596",
+            "name": "MELLTORP / ADDE",
+            "description": "Table and 4 chairs, white125 cm, Price incl. VAT",
+            "price": 90.99,
+            "category": 6,
+            "rating": 4.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/melltorp-adde-table-and-4-chairs-white__0737986_pe741287_s5.jpg?f=g",
+            "image": "DP0213201417022274M.jpg"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005510265",
+            "name": "Mug",
+            "description": "Mug, patterned/blue22 cl, price/piece SR 10.75, Price incl. VAT",
+            "price": 10.99,
+            "category": 6,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/entusiasm-mug-patterned-blue__0659244_pe710554_s5.jpg?f=g",
+            "image": "DP0526201517022624M.jpg"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005520201",
+            "name": "Table and 2 chairs",
+            "description": "Table and 2 chairs, light antique stain white stain/Vittaryd beige74x74 cm, Price incl. VAT",
+            "price": 159.90,
+            "category": 3,
+            "rating": 4.3,
+            "image_url": "https://www.ikea.com/sa/en/images/products/lerhamn-table-and-2-chairs-light-antique-stain-white-stain-vittaryd-beige__0247204_pe386034_s5.jpg?f=g",
+            "image": "DP0519201517025089M.jpg"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005520205",
+            "name": "Table and 6 chairs",
+            "description": "Table and 6 chairs, acacia/black235x100 cm, Price incl. VAT ",
+            "price": 1154.99,
+            "category": 6,
+            "rating": 4.2,
+            "image_url": "https://www.ikea.com/sa/en/images/products/skogsta-norraryd-table-and-6-chairs-acacia-black__0549135_pe657574_s5.jpg?f=g",
+            "image": "0900631B8142A3AFM.jpg"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005630545",
+            "name": "Table and 4 chairs",
+            "description": "Table and 4 chairs, black-brown/Vittaryd beige118x74 cm, Price incl. VAT",
+            "price": 229.99,
+            "category": 3,
+            "rating": 4.3,
+            "image_url": "https://www.ikea.com/sa/en/images/products/lerhamn-table-and-4-chairs-black-brown-vittaryd-beige__0247203_pe386035_s5.jpg?f=g",
+            "image": "DP0608201517025373M.jpg"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005630605",
+            "name": "Table and 4 chairs",
+            "description": "Table and 4 chairs, brown/Mjuk dark brown140x85 cm, Price incl. VAT",
+            "price": 1500.99,
+            "category": 9,
+            "rating": 4.6,
+            "image_url": "https://www.ikea.com/sa/en/images/products/moerbylanga-bernhard-table-and-4-chairs-brown-mjuk-dark-brown__0738077_pe741354_s5.jpg?f=g",
+            "image": "DP0608201517035688M.jpg"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005630637",
+            "name": "Serving plate",
+            "description": "Serving plate, white/patterned44x30 cm, Price incl. VAT",
+            "price": 14.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/upplaga-serving-plate-white-patterned__0913918_pe783798_s5.jpg?f=g",
+            "image": "DP0608201517035747M.jpg"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005630638",
+            "name": "Paper napkin",
+            "description": "Paper napkin, medium green40x40 cm, price/piece SR 0.24, Price incl. VAT",
+            "price": 2.99,
+            "category": 6,
+            "rating": 4.2,
+            "image_url": "https://www.ikea.com/sa/en/images/products/fantastisk-paper-napkin-medium-green__0095879_pe235088_s5.jpg?f=g",
+            "image": "DP0608201517035763M.jpg"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005650677",
+            "name": "Serving bow",
+            "description": "Serving bowl, bamboo12 cm, Price incl. VAT",
+            "price": 9.99,
+            "category": 6,
+            "rating": 4.4,
+            "image_url": "https://www.ikea.com/sa/en/images/products/blanda-matt-serving-bowl-bamboo__0712885_pe729156_s5.jpg?f=g",
+            "image": "DP0612201517032350M.jpg"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005700140",
+            "name": "Place mat",
+            "description": "Place mat, seagrass/black37 cm, Price incl. VAT",
+            "price": 7.99,
+            "category": 6,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/laettad-place-mat-seagrass-black__0711861_pe728547_s5.jpg?f=g",
+            "image": "DP0831201520432399C.jpg"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005740430",
+            "name": "Place mat",
+            "description": "Place mat, blue/patterned45x33 cm, Price incl. VAT",
+            "price": 3.99,
+            "category": 6,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/gallra-place-mat-blue-patterned__0711862_pe728548_s5.jpg?f=g",
+            "image": "DP0526201623053167C.jpg"
+        }
+    },
+    {
+        "pk": 76,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005740561",
+            "name": "Place mat",
+            "description": "Place mat, green45x33 cm, Price incl. VAT",
+            "price": 4.99,
+            "category": 6,
+            "rating": 4.6,
+            "image_url": "https://www.ikea.com/sa/en/images/products/snobbig-place-mat-green__0460590_pe606880_s5.jpg?f=g",
+            "image": "DP0623201517030671M.jpg"
+        }
+    },
+    {
+        "pk": 77,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005740634",
+            "name": "Place mat",
+            "description": "Place mat, dark red35x45 cm, Price incl. VAT",
+            "price": 2.99,
+            "category": 6,
+            "rating": 4.5,
+            "image_url": "https://www.ikea.com/sa/en/images/products/maerit-place-mat-dark-red__0713831_pe729818_s5.jpg?f=g",
+            "image": "DP0623201517030686M.jpg"
+        }
+    },
+    {
+        "pk": 78,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005760088",
+            "name": "Place mat",
+            "description": "Place mat, red37 cm, Price incl. VAT ",
+            "price": 2.99,
+            "category": 6,
+            "rating": 5.0,
+            "image_url": "https://www.ikea.com/sa/en/images/products/panna-place-mat-red__0713793_pe729769_s5.jpg?f=g",
+            "image": "DP0702201517031050M.jpg"
+        }
+    },
+    {
+        "pk": 79,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005810108",
+            "name": " cutlery set",
+            "description": "16-piece cutlery set, Price incl. VAT",
+            "price": 5.69,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "https://www.ikea.com/sa/en/images/products/mopsig-16-piece-cutlery-set__0759952_pe750550_s5.jpg?f=g",
+            "image": "DP0702201517033643M.jpg"
+        }
+    },
+    {
+        "pk": 80,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005820197",
+            "name": "Tray",
+            "description": "Tray, bird33x33 cm, Price incl. VAT",
+            "price": 8.99,
+            "category": 6,
+            "rating": 4.9,
+            "image_url": "https://www.ikea.com/sa/en/images/products/baerbar-tray-bird__0097583_pe238293_s5.jpg?f=g",
+            "image": "DP1008201517035763M.jpg"
+        }
+    }
+  ]  
