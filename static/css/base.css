@@ -31,6 +31,7 @@ body {
     background: rgb(37, 83, 126);
     color: white;
     min-width: 180px;
+    margin-top: 10px;
 }
 
 .btn-blue {
@@ -56,13 +57,12 @@ body {
     color: white;
 } 
 
-.catch-phrase {
-    margin-top:170px;
+.hero {
+    margin-top: 40px;
 }
 
 h5 {
-    text-shadow:  1px 1px 0px black;
-    color:rgb(231, 194, 27);
+    color:rgb(37, 83, 126);
     
 }
 
