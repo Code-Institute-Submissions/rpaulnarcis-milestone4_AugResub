@@ -8,20 +8,20 @@ Welcome! [View live project here]()
 Milestone Project Home Page
 
 ### **UX - User Experience Design:**
-
+This is an e-commerce furniture store web application, which will encourage customers to purchase household items. It's a user-friendly navigation system, accompanied by its visual image appeal, through product search and filter functionality. A full-featured authentication system including email confirmations and user profiles. Real-time notifications that guide the user's experience. With the potential to become a sustainable revenue-generating business.
 ### User Stories
 
-##### As A User  ##### I Want To Be Able To...                              ##### So That I Can...
-                                                     ##### Viewing and Navigation
-1 Shopper       | view a list of products                                   | select something to purchase Identify the price, description, product rating
-2 Shopper       | View individual product details                           | product image
-3 shopper       | Quickly identify deals, clearance items and special offers| Take advantage of special savings on products I'd like to purchase
-4 Shopper       | Easily view total of my purchases at any time             | Avoid spending too much
+ As A User         |I Want To Be Able To...                                 |So That I Can...
+| :------------|  :-----------------------------------------------------|  :----------------------------------------------------------|
+1 Shopper          |view a list of products                                   | select something to purchase Identify the price, description,|
+2 Shopper          |View individual product details                           | product image
+3 shopper          |Quickly identify deals, clearance items and special offers | Take advantage of special savings on products I'd like to purchase
+4 Shopper          |Easily view total of my purchases at any time              | Avoid spending too much
 
 #### Wireframes, mockups, diagrams, etc
 
 #### Wireframe 1:
-Home Page 
+Home Page ![home](https://user-images.githubusercontent.com/66089041/116928680-aa0f5680-ac5d-11eb-9981-a8aa9b491790.png)
 
 
 ### **Features:**
