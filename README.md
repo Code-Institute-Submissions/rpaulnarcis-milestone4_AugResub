@@ -8,7 +8,7 @@ Welcome! [View live project here]()
 Milestone Project Home Page
 
 ### **UX - User Experience Design:**
-Furniture Plus is an e-commerce furniture store web application, which will encourage customers to purchase household items. It's a user-friendly navigation system, accompanied by its visual image appeal, through product search and filter functionality, and full-featured authentication system including email confirmations and user profiles. A live fully functional payment system. Real-time notifications that guide the user's experience. With the potential to become a sustainable revenue-generating business.
+Furniture Plus is an e-commerce furniture store web application, which will encourage customers to purchase furniture and household items. It's a user-friendly navigation system, accompanied by its visual image appeal, through product search and filter functionality, and full-featured authentication system including email confirmations and user profiles. A live fully functional payment system. Real-time notifications that guide the user's experience. With the potential to become a sustainable revenue-generating business.
 ### User Stories
 
  As A User         |I Want To Be Able To...                                 |So That I Can...
