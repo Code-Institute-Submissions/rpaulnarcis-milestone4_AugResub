@@ -39,6 +39,12 @@ body {
     color: white;
 }
 
+.btn-outline-blue {
+    background: white;
+    color: rgb(37, 83, 126) !important;
+    border: 1px solid rgb(37, 83, 126);
+}
+
 .shop-furniture-button:hover,
 .shop-furniture-button:active,
 .shop-furniture-button:focus,
