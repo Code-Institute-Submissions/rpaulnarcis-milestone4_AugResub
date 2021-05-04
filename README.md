@@ -8,7 +8,7 @@ Welcome! [View live project here]()
 Milestone Project Home Page
 
 ### **UX - User Experience Design:**
-This is an e-commerce furniture store web application, which will encourage customers to purchase household items. It's a user-friendly navigation system, accompanied by its visual image appeal, through product search and filter functionality. A full-featured authentication system including email confirmations and user profiles. Real-time notifications that guide the user's experience. With the potential to become a sustainable revenue-generating business.
+Furniture Plus is an e-commerce furniture store web application, which will encourage customers to purchase household items. It's a user-friendly navigation system, accompanied by its visual image appeal, through product search and filter functionality, and full-featured authentication system including email confirmations and user profiles. A live fully functional payment system. Real-time notifications that guide the user's experience. With the potential to become a sustainable revenue-generating business.
 ### User Stories
 
  As A User         |I Want To Be Able To...                                 |So That I Can...
@@ -52,12 +52,12 @@ Home Page ![home](https://user-images.githubusercontent.com/66089041/116928680-
     - Used to store code for the project after being pushed.
 - [Git](https://git-scm.com/)
     - Used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
-- [WireframeSketcher](https://wireframesketcher.com/)
+- [Balsamiq](https://balsamiq.com/wireframes/?)
     - Used to create Wireframes for the project.
 - [AutoPrefixer](https://autoprefixer.github.io/)
     - Used to parse my CSS and vendor prefixes.
 - [Grammarly](https://app.grammarly.com/)
-    - Used to fix grammar errors across the project.    
+    - Used to fix grammar errors across the project.
 
 
 ### **Testing:**
