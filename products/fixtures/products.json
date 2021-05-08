@@ -371,7 +371,7 @@
             "name": "Base cabinet",
             "description": "Base cabinet with doors and drawer, wood effect/grey180 cm, Price incl. VAT ",
             "price": 232.99,
-            "category": 4,
+            "category": 9,
             "rating": 5.0,
             "image_url": "https://www.ikea.com/sa/en/images/products/knoxhult-base-cabinet-with-doors-and-drawer-wood-effect-grey__0630758_pe694886_s5.jpg?f=g",
             "image": "DP0610201317080834M.jpg"
@@ -399,7 +399,7 @@
             "name": "Kitchen island",
             "description": "Kitchen island, black/oak126x79x90 cm, Price incl. VAT",
             "price": 569.99,
-            "category": 4,
+            "category": 9,
             "rating": 4.6,
             "image_url": "https://www.ikea.com/sa/en/images/products/vadholma-kitchen-island-black-oak__0736820_pe740762_s5.jpg?f=g",
             "image": "DP0422201517022488M.jpg"
@@ -1118,5 +1118,285 @@
             "image_url": "https://www.ikea.com/sa/en/images/products/baerbar-tray-bird__0097583_pe238293_s5.jpg?f=g",
             "image": "DP1008201517035763M.jpg"
         }
-    }
-  ]  
+    },
+    {
+        "pk": 81,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005850180",
+          "name": "EKTORP",
+          "description": "Armchair, XL, Skrea dark brown",
+          "price": 89.99,
+          "category": 9,
+          "rating": 4.2,
+          "image_url": "https://www.ikea.com/us/en/images/products/ektorp-armchair-xl-skrea-dark-brown__0747651_pe744657_s5.jpg?f=xl",
+          "image": "DP0527201517022924M.jpg"
+        }
+      },
+      {
+        "pk": 82,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005851218",
+          "name": "STRANDMON",
+          "description": "Wing chair, Järstad brown",
+          "price": 99.99,
+          "category": 9,
+          "rating": 4.1,
+          "image_url": "https://www.ikea.com/us/en/images/products/strandmon-wing-chair-jaerstad-brown__0392556_pe560378_s5.jpg?f=g",
+          "image": "DP0714201504201760M.jpg"
+        }
+      },
+      {
+        "pk": 83,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005860175",
+          "name": "VALLENTUNA",
+          "description": "Sectional, 1-seat, Murum white",
+          "price": 74.99,
+          "category": 9,
+          "rating": 4.8,
+          "image_url": "https://www.ikea.com/us/en/images/products/vallentuna-sectional-1-seat-murum-white__0731401_pe738241_s5.jpg?f=g",
+          "image": "DP0710201517034239M.jpg"
+        }
+      },
+      {
+        "pk": 84,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005860263",
+          "name": "VALLENTUNA",
+          "description": "Sectional, 1-seat, Murum black",
+          "price": 79.99,
+          "category": 8,
+          "rating": 4,
+          "image_url": "https://www.ikea.com/us/en/images/products/vallentuna-sectional-1-seat-murum-black__0731410_pe738250_s5.jpg?f=g",
+          "image": "DP0805201520415923C.jpg"
+        }
+      },
+      {
+        "pk": 85,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005870183",
+          "name": "NÄTTRABY",
+          "description": "Swivel recliner, Tallmyra black/gray",
+          "price": 52.99,
+          "category": 9,
+          "rating": 5,
+          "image_url": "https://www.ikea.com/us/en/images/products/naettraby-swivel-recliner-tallmyra-black-gray__0962415_pe808073_s5.jpg?f=g",
+          "image": "DP0724201517031934M.jpg"
+        }
+      },
+      {
+        "pk": 86,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005870599",
+          "name": "STRANDMON",
+          "description": "Ottoman, Grann/Bomstad dark brown",
+          "price": 44.99,
+          "category": 9,
+          "rating": 4.4,
+          "image_url": "https://www.ikea.com/us/en/images/products/strandmon-ottoman-grann-bomstad-dark-brown__0998381_pe823012_s5.jpg?f=g",
+          "image": "DP0721201517041500M.jpg"
+        }
+      },
+      {
+        "pk": 87,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005870638",
+          "name": "GLYPEN",
+          "description": "Bath faucet, chrome plated",
+          "price": 5.99,
+          "category": 7,
+          "rating": 4.4,
+          "image_url": "https://www.ikea.com/us/en/images/products/glypen-bath-faucet-chrome-plated__0779359_pe759469_s5.jpg?f=g",
+          "image": "DP0724201517024000M.jpg"
+        }
+      },
+      {
+        "pk": 88,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005910565",
+          "name": "HAMNSKAR",
+          "description": "Bath faucet with strainer, black",
+          "price": 11.99,
+          "category": 7,
+          "rating": 4.3,
+          "image_url": "https://www.ikea.com/us/en/images/products/hamnskaer-bath-faucet-with-strainer-black__0755165_pe748292_s5.jpg?f=g",
+          "image": "DP0731201517031510M.jpg"
+        }
+      },
+      {
+        "pk": 89,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005930313",
+          "name": "LUNDSKAR",
+          "description": "Bath faucet with strainer, chrome plated",
+          "price": 11.50,
+          "category": 3,
+          "rating": 4.9,
+          "image_url": "https://www.ikea.com/us/en/images/products/lundskaer-bath-faucet-with-strainer-chrome-plated__0898565_pe782515_s5.jpg?f=g",
+          "image": "DP0807201517015600M.jpg"
+        }
+      },
+      {
+        "pk": 90,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005940242",
+          "name": "LILLSVAN",
+          "description": "Bath faucet with strainer, chrome plated",
+          "price": 4.99,
+          "category": 9,
+          "rating": 3.7,
+          "image_url": "https://www.ikea.com/us/en/images/products/lillsvan-bath-faucet-with-strainer-chrome-plated__0644786_pe702961_s5.jpg?f=g",
+          "image": "DP0731201517024285M.jpg"
+        }
+      },
+      {
+        "pk": 91,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005940299",
+          "name": "DALSKAR",
+          "description": "Bath faucet with strainer, chrome plated",
+          "price": 699,
+          "category": 7,
+          "rating": 5,
+          "image_url": "https://www.ikea.com/us/en/images/products/dalskaer-bath-faucet-with-strainer-chrome-plated__0755160_pe748287_s5.jpg?f=g",
+          "image": "DP0810201517010458M.jpg"
+        }
+      },
+      {
+        "pk": 92,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005941612",
+          "name": "ENSEN",
+          "description": "Bath faucet with strainer, chrome plated",
+          "price": 4.99,
+          "category": 3,
+          "rating": 5,
+          "image_url": "https://www.ikea.com/us/en/images/products/ensen-bath-faucet-with-strainer-chrome-plated__0755162_pe748289_s5.jpg?f=g",
+          "image": "DP0805201517023421M.jpg"
+        }
+      },
+      {
+        "pk": 93,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005980058",
+          "name": "RUNSKAR",
+          "description": "Bath faucet with strainer, brass color",
+          "price": 8.99,
+          "category": 9,
+          "rating": 5,
+          "image_url": "https://www.ikea.com/us/en/images/products/runskaer-bath-faucet-with-strainer-brass-color__0954847_pe803509_s5.jpg?f=g",
+          "image": "DP0917201520473680C.jpg"
+        }
+      },
+      {
+        "pk": 94,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5005980146",
+          "name": "HEMNES",
+          "description": "8-drawer dresser, white stain63x37 3/4 ",
+          "price": 160.99,
+          "category": 10,
+          "rating": 4.5,
+          "image_url": "https://www.ikea.com/us/en/images/products/hemnes-8-drawer-dresser-white-stain__0627346_pe693299_s5.jpg?f=g",
+          "image": "DP0820201517013830M.jpg"
+        }
+      },
+      {
+        "pk": 95,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5006070077",
+          "name": "HEMNES",
+          "description": "8-drawer dresser, dark gray stained63x37 3/8 ",
+          "price": 169.99,
+          "category": 10,
+          "rating": 4.4,
+          "image_url": "https://www.ikea.com/us/en/images/products/hemnes-8-drawer-dresser-dark-gray-stained__0519831_pe641793_s5.jpg?f=g",
+          "image": "DP0903201517023529M.jpg"
+        }
+      },
+      {
+        "pk": 96,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5006081758",
+          "name": "HEMNES",
+          "description": "8-drawer dresser, black-brown63x37 3/4 ",
+          "price": 179.99,
+          "category": 9,
+          "rating": 4.8,
+          "image_url": "https://www.ikea.com/us/en/images/products/hemnes-8-drawer-dresser-black-brown__0627349_pe693302_s5.jpg?f=g",
+          "image": "DP0908201517020936M.jpg"
+        }
+      },
+      {
+        "pk": 97,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5006082011",
+          "name": "BRIMNES",
+          "description": "4-drawer dresser, black/frosted glass30 3/4x48 7/8 ",
+          "price": 62.99,
+          "category": 10,
+          "rating": 5,
+          "image_url": "https://www.ikea.com/us/en/images/products/brimnes-4-drawer-dresser-black-frosted-glass__0651661_pe707004_s5.jpg?f=g",
+          "image": "DP0828201517024772M.jpg"
+        }
+      },
+      {
+        "pk": 98,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5006150186",
+          "name": "SONGESAND",
+          "description": "6-drawer chest, brown32 1/4x49 5/8 ",
+          "price": 71.99,
+          "category": 10,
+          "rating": 4,
+          "image_url": "https://www.ikea.com/us/en/images/products/songesand-6-drawer-chest-brown__0552205_pe658938_s5.jpg?f=g",
+          "image": "DP0930201517050189M.jpg"
+        }
+      },
+      {
+        "pk": 99,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5006153172",
+          "name": "BRIMNES",
+          "description": "Wardrobe with 3 doors, white46x74 3/4 ",
+          "price": 139.99,
+          "category": 10,
+          "rating": 4.2,
+          "image_url": "https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-3-doors-white__0176787_pe329567_s5.jpg?f=g",
+          "image": "DP1002201517022007M.jpg"
+        }
+      },
+      {
+        "pk": 100,
+        "model": "products.product",
+        "fields": {
+          "sku": "pp5006160127",
+          "name": "BRIMNES",
+          "description": "Wardrobe with 3 doors, black46x74 3/4 ",
+          "price": 52.99,
+          "category": 6,
+          "rating": 5,
+          "image_url": "https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-3-doors-black__0428307_pe583468_s5.jpg?f=g",
+          "image": "DP1230201520420777C.jpg"
+        }
+      }
+]  
