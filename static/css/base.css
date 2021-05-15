@@ -19,6 +19,10 @@ body {
     width: 1.5rem;
 }
 
+.sign-up {
+    color: rgb(37, 83, 126);
+}
+
 .logo-font {
     text-transform: uppercase;
 }
@@ -59,18 +63,26 @@ body {
     color: rgb(37, 83, 126) !important;    
 }
 
-.text-gold {
+.text-grey {
+    color: #828e99 !important;    
+}
+
+.fas.fa-star.mr-1 {
     color: rgb(247, 212, 12) !important;
     text-shadow: 1px 1px 0px rgb(37, 83, 126);
 }
 
-.text-brown {
-    color: rgb(124, 112, 60) !important;
+.fas.fa-tag.mr-1 {
+    color: rgb(180, 158, 57) !important;
     text-shadow: 1px 1px 0px rgb(37, 83, 126);
 }
 
 .text-white {
     color: white;
+} 
+
+.text-black {
+    color: rgb(77, 75, 75) !important;
 } 
 
 .hero {
@@ -241,8 +253,8 @@ td.py-3 {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: rgb(37, 83, 126);
+    border: 1px solid rgb(37, 83, 126);
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -255,8 +267,8 @@ td.py-3 {
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-    background-color: #222;
-    border-color: #222;
+    background-color: rgb(72, 127, 179);
+    border-color: rgb(37, 83, 126);
 }
 
 .allauth-form-inner-content a {
