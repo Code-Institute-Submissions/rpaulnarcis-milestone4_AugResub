@@ -1,0 +1,1 @@
+Furniture Plus Confirmation for order Number {{ order.order_number}}
