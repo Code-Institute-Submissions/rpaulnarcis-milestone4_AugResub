@@ -27,7 +27,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.enviro
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['furnitureplus.herokuapp.com', 'localhost']
 
@@ -105,7 +105,7 @@ AUTHENTICATION_BACKENDS = (
 'allauth.account.auth_backends.AuthenticationBackend',
 )
 
-SITE_ID = 1
+SITE_ID = 2
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
