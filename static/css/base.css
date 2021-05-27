@@ -10,9 +10,7 @@ body {
     font-family: 'Lato';
 }
 
-body {
-    overflow-x: hidden !important;
-}
+
 
 /* from Bulma */
 .icon {
@@ -379,6 +377,11 @@ td.py-3 {
         .btn.btn-outline-blue.rounded-0 {
             font-size: 16px;
         }
+
+        body, html {
+            overflow-x: hidden !important;
+            
+       }
     }
     
     @media only screen 
@@ -393,8 +396,10 @@ td.py-3 {
             font-size: 16px;
         }
         
-        html {
+        body, html {
             overflow-x: hidden !important;
+            
        }
+       
     }        
 }
