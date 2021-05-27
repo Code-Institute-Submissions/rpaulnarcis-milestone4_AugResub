@@ -10,6 +10,10 @@ body {
     font-family: 'Lato';
 }
 
+body {
+    overflow-x: hidden !important;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -365,4 +369,32 @@ td.py-3 {
         padding: .25rem .5rem !important;
     }
   
+    @media only screen and (max-width: 600px) {
+        .allauth-form-inner-content {
+            margin-top: 120px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .btn.btn-outline-blue.rounded-0 {
+            font-size: 16px;
+        }
+    }
+    
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+        .allauth-form-inner-content {
+            margin-left: 40px;
+        }
+        
+        .btn.btn-outline-blue.rounded-0 {
+            font-size: 16px;
+        }
+        
+        html {
+            overflow-x: hidden !important;
+       }
+    }        
 }
