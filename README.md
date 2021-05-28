@@ -3,7 +3,7 @@ MileStone README.md
 ## **My Milestone 4 Project**
 
 
-Welcome! [View live project here]()
+Welcome! [View live project here](https://furnitureplus.herokuapp.com/)
 
 Milestone Project Home Page
 ![](media/Furniture_plus.png)
@@ -50,7 +50,7 @@ Furniture Plus is a  fictional e-commerce furniture store web application, buil
 |&nbsp;             |&nbsp;                                                     |Find the best-priced or best-rated product in a specific category, or   |
 |Shopper         |Sort a specific category of product                        |sort the product in that category by name                               |
 |&nbsp;             |&nbsp;                                                     |Find the best-priced or best-rated products accross broad categories,   |
-|Shopper         |Sort multiple categories of products simuultaneousy        |such as "bed", "bath", "kitchen", "Living" or "dining"                  |
+|Shopper         |Sort multiple categories of products simultaneously        |such as "bed", "bath", "kitchen", "Living" or "dining"                  |
 |Shopper         |Search for a product by name or discreption                |Find a specific product I'd like to purchase                            |
 |Shopper         |Easily see what I've searched for and number of results    |Quickly decide whether the product I want is available                  |
 |&nbsp;             |**Purchasing and Checkout**                                |&nbsp;                                                                  |
@@ -63,7 +63,7 @@ Furniture Plus is a  fictional e-commerce furniture store web application, buil
 |Shopper         |Receive an email confirmation after checking out           |Keep the confirmation of what I've purchased for my records             |
 |&nbsp;             |**Admin and Store Management**                             |&nbsp;                                                                  |
 |Store Owner     |Add a product                                              |Add new items to the store                                              |
-|Store Owner     |Edit/update a product                                      |Change productprices, discription,images, and other product criteria    |
+|Store Owner     |Edit/update a product                                      |Change product prices, discription,images, and other product criteria    |
 |Store Ownwe     |Delete a product                                           |Remove items that are no longer for sale                                |
  
 ## **Colours**
@@ -75,23 +75,8 @@ Furniture Plus is a  fictional e-commerce furniture store web application, buil
 - Square edges on all buttons and form windows.
 - The home page banner is displayed large at the center of the page accompanied by a shop button.
 ## **Wireframes, mockups, diagrams, etc**
-
-#### Wireframe 1:
-**Home Page** ![](media/ms4Home.png)
-
-**All Products Page** ![](media/ms4Products.png)
-
-**Sign Up/Register** ![](media/ms4Sign_up.png)
-
-**Sign In/Log in** ![](media/ms4Sign_in.png)
-
-**My Profile** ![](media/ms4My_Profile.png)
-
-**Shopping Bag** ![](media/ms4Shopping_bag.png)
-
-**Ceckout** ![](media/ms4Checkout.png)
-### **Features:**
-#### **Features presented across the project**
+View wireframes [**here**](https://github.com/rpaulnarcis/milestone4/tree/master/wireframes)
+## **Features:**
 - **Navbar**, located at the top of the website page. Contains a search bar and seven links five of which are dropdowns which comprise other links.
     - The **_Furniture Plus_** logo links back to the home page when clicked.
     - The **_Search bar_** searches for the various products that the site has to offer.
@@ -104,11 +89,10 @@ Furniture Plus is a  fictional e-commerce furniture store web application, buil
         - if logged in, the user will have to fill in the shipping address and the billing address then, will be redirected to the finalize checkout page where there is a summary of all products from the shopping cart: the shipping address, the billing address, the payment method, the cart total, the shipping fee and the order total (the order total is the sum of the cart total + shipping fee). Next to where the payment method is listed, there is a link where the user has the option to change the card. If clicked on checkout button, located at the bottom of the summary list, the payment will be processed and a message will be displayed.
     - **_Register_** - links to a page with a form where users can register by typing a unique username, an email address and a password which must be confirmed. At the bottom of the register form there is a link which links to the login page for users who already have an account.
     - **_Login_** - links to a page with a form where registered users can login by typing their username and password. At the bottom of the login form there is a link which links to the register page for users who do not have an account yet.
-
-### **Existing Features**
-
-
 ### **Features Left to Implement**
+- Allauth logging in, and signing up with social accounts.
+- Product stock inventory system. 
+
  ### **Technologies Used:**
 - [Gitpod](https://www.gitpod.io/) IDE - Used to build this project.
 - [GitHub](https://github.com/) - Used as remote storage of my code online.
@@ -125,12 +109,37 @@ Furniture Plus is a  fictional e-commerce furniture store web application, buil
 - [Heroku](https://heroku.com/) - Hosts the deployed version of this project.
 - [PostgreSQL](https://www.postgresql.org/) - Used as relational SQL database plugin via Heroku.
 
-### **Testing:**
+## **Testing:**
+All pages have been tested on all screen sizes. This has been done via Google Chrome developer tools and by testing on my own personal phone and iPad. Also, all features of the page are scaling as intended in tablet and mobile devices.
 
-#### User testing stories from User Experience Design (UX) Section
-- 
-#### Further Testing
--
+I checked the registration form to see if an error occurred when entering an existing username or email, and the form validations react as expected. Also, if the confirmation password does not match the password, it will cause an error. I made sure that the login form will cause an error if the username and password entered are not registered in the database. For registration user name must be four characters or more or it will throw an error message, if the password is too similar to the email address it will throw an error message, the password also needs to contain at least eight characters. A verification email is sent on completion of the registration process.
+
+I also checked to see if the number next to the cart is updated when a product is added or removed. Toast error, info, success, and warning pop messages are displayed every step of the way during the various processes. While testing the checkout process, I made sure that a new customer who does not have a payment card attached to his account will have to add a card to complete the checkout process. The change card functionality on the finalize checkout page has been tested with different cards to make sure it is working correctly and redirects back as intended. The Stripe payment function has been verified and all transactions show up on the Stripe dashboard. Both registered and guest users are allowed to purchase products on the site.All links and forms are verified to be working correctly via manual testing. Upon product purchases, a success message is displayed to the top right of the page from the bag, along with an order confirmation email being sent to the shopper, and order information being listed.
+### **User testing stories from User Experience Design (UX) Section**
+- A list of products are displayed by clicking on **all products**, or the various **product category tabs**.
+- Product details, such as price, description, and rating can be viewed by clicking on the **product image**.
+- Deals, clearance items, and special offers can be accessed by clicking the **special offers** tab.
+- Toal of purchases is displayed under the **shopping bag icon** to the top right of the page.
+- You register by clicking on the **account icon** and choosing **register**. Once your information is filled out and you are registered and logged in you can click on the **account icon** and choose **my profile** to view your profile.
+- Login and logout options can be accessed by clicking the accounts icon.
+- At the bottom of the  sign-in form there is a **forgot password** option when clicked sends an email to the user giving them a chance to reset their password.
+- After registering an email confirmation is sent to the user to confirm their email account.
+- All users have a personalized user profile with a list of all payment information this can be accessed by clicking on the **accounts icon** and choosing **my profile**.
+- To sort a list of available products one can click on the various tabs **all products**, **bed & bath**, **kitchen living & dining** as well as **special offers**.
+- A specific category of products can be accessed by clicking on the various product tabs in the navbar.
+-  To sort multiple categories of products simultaneously click on the **all products tab** and choose **by category**.
+- You can search for a product by name or description by using the search bar at the top of the page.
+- when searched for all available products are displayed under that particular search category.
+- when purchasing a product there is a quantity tab with plus and minus tabs where you can adjust the quantity of the item that you will like to purchase.
+- Items to be purchased can be viewed in your shopping bag by clicking on the bag icon.
+- The number of items in the shopping bag can be adjusted with the quantity tab plus and minus in the shopping bag.
+- Payment information can be easily entered by clicking the secure checkout button.
+- Payment information is safe and secure via stripe security features, and other security features to place on the site.
+- An order confirmation list is available at checkout.
+- An email confirmation is sent to the customer after checkout.
+- Store owners can add / remove new products, items that are no longer for sale, change product prices, description, images, and other product criteria, through the **admin account**.
+
+
 
 #### Known Bugs and fixes
 ### **Deployment:**
