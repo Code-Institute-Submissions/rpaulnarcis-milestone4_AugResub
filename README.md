@@ -1,15 +1,16 @@
 MileStone README.md
 
 ## **My Milestone 4 Project**
+### **Furnitureplus - Ecommerce (full stack web application)**
 
 
 Welcome! [View live project here](https://furnitureplus.herokuapp.com/)
 
 Milestone Project Home Page
 ![](media/Furniture_plus.png)
-# **UX**
+## **UX**
 Furniture Plus is a  fictional e-commerce furniture store web application, built for Code Institute as a part of Full Stack Software Development Diploma course. Project was build with using semantic HTML5, CSS3, JavaScript (jQuery) along with Python framework Django 3.2.3. The site will encourage customers to purchase furniture and household items online. It's a user-friendly navigation system, accompanied by its visual image appeal, through product search and filter functionality, and full-featured authentication system including email confirmations and user profiles. A live fully functional payment system. Real-time notifications that guide the user's experience. With the potential to become a sustainable revenue-generating business.
-## **Customer Goals**
+### **Customer Goals**
 - Easy access being able to pick up where you left off.
 - Be provided with  a personalized experience.
 - Easy navigation throughout the site, A strong feeling of being in control at all times through - their experience.
@@ -19,7 +20,7 @@ Furniture Plus is a  fictional e-commerce furniture store web application, buil
 - Visual appeal products being displayed on full colour.
 - The ability to be able to purchase whether registered member or guess.
 
-## **Developer and Business Goals**
+### **Developer and Business Goals**
 - Providing a unique customer experience.  
 - Making responsive e-commerce website.
 - Easy navigation throughout the site and easy adjustment of purchase before checkout.
@@ -29,7 +30,7 @@ Furniture Plus is a  fictional e-commerce furniture store web application, buil
 - Increasing sales.
 - Grow email list / registered members. 
 - Provide visitors a personalized experience. 
-## **User Stories**
+### **User Stories**
 
 | As A User         |I Want To Be Able To...                                    | So That I Can... 
 | ----------------- |:--------------------------------------------------------- |:---------------------------------------------------------------------- |
@@ -66,15 +67,15 @@ Furniture Plus is a  fictional e-commerce furniture store web application, buil
 |Store Owner     |Edit/update a product                                      |Change product prices, discription,images, and other product criteria    |
 |Store Ownwe     |Delete a product                                           |Remove items that are no longer for sale                                |
  
-## **Colours**
+### **Colours**
 - A blue theme was chosen as it represents sea and the sky giving a sort of relaxing feeling as you reveal through the various products that available.
 
-## **Styling**
+### **Styling**
 - Company header to the left upper corner of page.
 - The Lato font is being used as it gives off the clean business effect.
 - Square edges on all buttons and form windows.
 - The home page banner is displayed large at the center of the page accompanied by a shop button.
-## **Wireframes, mockups, diagrams, etc**
+### **Wireframes, mockups, diagrams, etc**
 View wireframes [**here**](https://github.com/rpaulnarcis/milestone4/tree/master/wireframes)
 ## **Features:**
 - **Navbar**, located at the top of the website page. Contains a search bar and seven links five of which are dropdowns which comprise other links.
@@ -91,7 +92,7 @@ View wireframes [**here**](https://github.com/rpaulnarcis/milestone4/tree/master
     - **_Login_** - links to a page with a form where registered users can login by typing their username and password. At the bottom of the login form there is a link which links to the register page for users who do not have an account yet.
 ### **Features Left to Implement**
 - Allauth logging in, and signing up with social accounts.
-- Product stock inventory system. 
+- Product stock inventory system.
 
  ### **Technologies Used:**
 - [Gitpod](https://www.gitpod.io/) IDE - Used to build this project.
@@ -137,20 +138,92 @@ I also checked to see if the number next to the cart is updated when a product i
 - Payment information is safe and secure via stripe security features, and other security features to place on the site.
 - An order confirmation list is available at checkout.
 - An email confirmation is sent to the customer after checkout.
-- Store owners can add / remove new products, items that are no longer for sale, change product prices, description, images, and other product criteria, through the **admin account**.
+- Store owners can add new products, and remove items that are no longer for sale, change product prices, description, images, and other product criteria, through the **admin account**.
+### **Validators**
+#### **HTML**
+- Passing the HTML code from all templates into the [W3C Markup Validator](https://validator.w3.org/) generates numerous errors, but these are expected as the validator is unable to understand the Django template tags.
+#### **CSS**
+- The CSS code passes [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) Service with two unknown errors.
 
+#### **JavaScript**
+- The JavaScript code passes trough [JSHint](https://jshint.com/) without errors.
 
+The project was tested to ensure full usability across the following browsers:
 
-#### Known Bugs and fixes
+- Google Chrome
+
+- Mozilla Firefox
+
+- Microsoft Edge
+### **Known Bugs and fixes**
+
+Problems experienced during deployment this was remedied by recreating the aws bucket
+
+Both the register and the login form pages on mobile were moving from left to right this was fixed by adding media queries for both mobile and tablet and adding CSS   body, html {overflow-x: hidden !important};
 ### **Deployment:**
-- 
-#### Deployment Process
- 
+This project is deployed on heroku: https://furnitureplus.herokuapp.com/
 
-### **Authors:**
-- This project was created by Robert P Narcis an upcoming full-stack software developer.
+Because Heroku cannot host static files, during development, they were pushed to Amazon AWS in a S3-Bucket.
+
+**Local Deployment**
+
+Before you are able to deploy and run this application locally, you must have the following installed on your system:
+
+- [Python 3](https://www.python.org/downloads/) - to run the application.
+- [PIP](https://pip.pypa.io/en/stable/installing/) - to install all app requirements.
+- An IDE of your choice.
+- [GIT](https://www.atlassian.com/git/tutorials/install-git) - for cloning and version control.
+- Next, perform the following steps:
+
+- Sign up or log in to Heroku account using the heroku website, click new create new app, giving it a name and choose the region closest to you. then on the resourrces tab, provision a new Postgress database, choose free plan.
+
+- To use Postgress we need to go back to gitpod and install dj-database_url and psycopg2, using pip3 install dj-database_url, and pip3 install psycopg2-binary now freeze the requirements with pip3 freeze requirements.txt , to make sure heroku installs all our apps requirements when we deploy it.
+
+- Next go to settings.py and at the top import dj-database_url, then down in the database settings comment out the default configuration, and replace the default database with a call to dj-database_url.parse, and give it the database url from heroku which you can get from your config variables in your app settings tab, or from the camand line by typing heroku config, save your progress now we are ready to connect to heroku.
+
+- Because we are connecting to Postgress for the first time we need to run migrations, by typing Python3 manage.py migrate. Import product data by using fixtures by first loading the categories first then products, to load categories type python3 manage.py loaddata categories and then the same for products.
+
+- At this point you will need to create a supper user by typing python3 manage.py create superuser. ,choose a name input email and choose a create a password verify password. The heroku app and database are now ready. Before comitting remove the Heroku database config so that it doen't end up in version control, uncomment the orignal database.
+
+- Let's use an if statement in settings.py so that when our app is running on Heroku where the database URL environment variable will be defined.
+We connect to Postgres and otherwise, we connect to sequel light.
+
+- First we need to install unicorn, which will act as our webserver, and freeze that into our requirements file. Now we can create our Procfile,
+To tell Heroku to create a web dyno which will run unicorn and serve our django app.
+
+- Next we need to temporarily disable collectstatic by using Heroku config set, disable collectstatic equals 1 so that Heroku won't try to collect static files when we deploy.
+
+- We'll need to add the hostname of our Heroku app to allowed hosts in settings.py, we can also add localhost in here so that gitpod will still work too.
+
+We can now deploy our app, by adding and committing our changes pushing to github with git push, and then using git push Heroku master to deploy to Heroku.
+
+- I'll go to my app in Heroku. And on the deploy tab set it to connect to github, search for my repository and then click connect, we can enable automatic deploys, and now every time we push to github, our code will automatically be deployed to Heroku as well.
+
+- I'll set debug to be true only if there's a variable called development in the environment, and now I'll commit these changes and push them to github. Navigating to Heroku we can see there's a build in progress, and our automatic deployments are working.
+
+**You must create accounts with both Stripe and Amazon S3**.
+
+- Sign up for a free Amazon AWS account in order to host your staticfiles and media files. From the S3 buckets section, you'll need to create a new unique bucket.
+
+- After creating your AWS S3 Bucket, you should now be able to push the static files to AWS using this command: python manage.py collectstatic.
+
+- Sign up for a free [Stripe](https://stripe.com/en-se?utm_campaign=paid_brand-SE_en_Search_Brand_Stripe-1436985502&utm_medium=cpc&utm_source=google&ad_content=301857629964&utm_term=kwd-295607662702&utm_matchtype=e&utm_adposition=&utm_device=c&gclid=CjwKCAjwzMeFBhBwEiwAzwS8zEPMOT3Ep4jOOFWC1x1NoXI4wZApqNqQNK7i2mygsnJ34i6_2F5k8RoC3esQAvD_BwE) account. Navigate to the **Developers** section, and click on **API Keys**. You should have two confidential keys, (**Publishable Key and Secret Key**) which need to be added to your .env file, as well as your Heroku config vars.
+
+    - Create a .env file containing the following environmental variables:
+    - STRIPE_PUB_KEY: Used to identify your account with Stripe;
+    - STRIPE_SECRET_KEY: Standard secret key.
+    - AWS_ACCESS_KEY_ID: AWS user credentials.
+    - AWS_SECRET_ACCESS_KEY: AWS S3 credentials.
+    - DATABASE_URL: Remote PostgreSQL database link if using a remote database.
+
+**Your project should be completely setup and ready for remote deployment!**
+ 
 ### **Credits:**
-- ### **Content:**
-- ### **Media:**
-- ### **Acknowledgements:**
--
+CodeInstitute Project Ado tutorial.
+### **Media:**
+Home page pic taken from [this](https://www.houzz.ie/photos/sitting-room-phvw-vp~15567651) website.
+ 
+Product images taken from [this](https://www.pinterest.com.au/search/pins/?rs=ac&len=2&q=furniture&eq=furn&etslf=7830&term_meta[]=furniture%7Cautocomplete%7C2) website.
+### **Acknowledgements:**
+- [Code Institute]() tutors.
+- Stack Overflow.
