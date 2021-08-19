@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font">Chat</h2>
+            </div>
+        </div>
+      
+        <div class="container">
+          <div class="row clearfix">
+              <div class="col-lg-12">
+                  <div class="card chat-app">
+                      <div class="chat">
+                          <div class="chat-history">
+                              <ul class="m-b-0">
+                                  {% for chat  in object_list %}
+                                     <li class="clearfix">
+                                        <div class="message-data">
+                                            <span class="message-data-time">{{chat.created}}</span>
+                                        </div>
+                                        <div class="message my-message">{{chat.text}}</div>                                    
+                                      </li>
+                                      {% for reply in chat.replies.all %}
+                                         <li class="clearfix">
+                                              <div class="message-data text-right">
+                                                  <span class="message-data-time">{{ reply.created }}</span>
+                                                  <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="avatar">
+                                              </div>
+                                              <div class="message other-message float-right">{{ reply.text }}</div>
+                                          </li>
+                                      {% endfor %}            
+                                  {% endfor %}
+                              </ul>
+                          </div>
+                          <div class="chat-message clearfix">
+                             <form action="{% url 'chat' %}" method="POST">
+                                {% csrf_token %}
+                                  <div class="input-group mb-0">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-send"></i></span>
+                                    </div>
+                                    <input type="text" name="text" class="form-control" required placeholder="Enter text here...">                                    
+                                  </div>
+                             </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+       </div>
+    </div>
+   
+{% endblock %}
