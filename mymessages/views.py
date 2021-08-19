@@ -17,3 +17,4 @@ class ChatView(LoginRequiredMixin, ListView):
         if text:
             Message.objects.create(user=request.user, text=text)
         return redirect(reverse('chat'))
+        
