@@ -205,6 +205,10 @@
   height: 0;
 }
 
+.avitar7 {
+  width: 20px;
+}
+
 @media only screen and (max-width: 767px) {
   .chat-app .people-list {
     height: 465px;
